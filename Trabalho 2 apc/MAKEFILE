@@ -1,3 +1,3 @@
 #CFLAGS = -ansi -Wall -std=c99 -g
-programa: prog.c prog.h
+programa: programa.c programa.h
 	gcc -ansi -std=c99 -g programa.c programa.h -o prog
